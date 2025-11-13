@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hata Sipaingot Tu Ho</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #e6e6fa, #d8bfd8);
+            background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 20px 20px;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .word-cloud {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .word {
+            font-size: 1.5em;
+            margin: 10px;
+            padding: 5px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            animation: fadeIn 2s ease-in-out;
+        }
+        .word.large { font-size: 2.5em; color: #ff69b4; }
+        .word.medium { font-size: 2em; color: #dda0dd; }
+        .word.small { font-size: 1.2em; color: #88c3db; }
+        .heart {
+            font-size: 2em;
+            margin: 10px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.5); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .message {
+            margin-top: 20px;
+            font-size: 1.2em;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ulaon maa On dahh Hasiann</h1>
+    <div class="word-cloud">
+        <div class="heart">❤️</div>
+        <div class="word large">Istirahat</div>
+        <div class="word small">Minum Air Hangat</div>
+        <div class="word small">Banyak-banyak Minum air Putih</div>
+         <div class="word medium">Tenangkan Pikiran Mu ya</div>
+        <div class="word small">Aku disini kok yangg</div>
+        <div class="word small">Jangan Lupa Makan yang teratur</div>
+        <div class="word medium">Harapkan Hari Baik</div>
+        <div class="word small">Jangan segan Bilang apa-apa sama ku</div>
+        <div class="heart">💖</div>
+    </div>
+    <div class="message">
+        <p>Huboto do haccit hari pertama mon hasian, alee ingot dahh dison do au natape daoo alee tangiang dohot dukunganku huleon do, jadi rappak hita dah hasian mandalini ari on asa nyaman tong hasian 💕</p>
+    </div>
+</body>
+</html>
